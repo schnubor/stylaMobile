@@ -14,6 +14,7 @@
 		07C3F0F31CC3D32000C0C676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C3F0F11CC3D32000C0C676 /* LaunchScreen.storyboard */; };
 		07C3F0FE1CC3D32000C0C676 /* MobilemagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C3F0FD1CC3D32000C0C676 /* MobilemagTests.swift */; };
 		07C3F1091CC3D32000C0C676 /* MobilemagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C3F1081CC3D32000C0C676 /* MobilemagUITests.swift */; };
+		07C3F1171CC3E08900C0C676 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C3F1161CC3E08900C0C676 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07C3F0E51CC3D32000C0C676 /* Mobilemag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobilemag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C3F0E51CC3D32000C0C676 /* Styla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Styla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C3F0E81CC3D32000C0C676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07C3F0EA1CC3D32000C0C676 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		07C3F0ED1CC3D32000C0C676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07C3F0EF1CC3D32000C0C676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07C3F0F21CC3D32000C0C676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07C3F0F41CC3D32000C0C676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07C3F0F91CC3D32000C0C676 /* MobilemagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobilemagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C3F0F91CC3D32000C0C676 /* Styla.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Styla.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C3F0FD1CC3D32000C0C676 /* MobilemagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilemagTests.swift; sourceTree = "<group>"; };
 		07C3F0FF1CC3D32000C0C676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07C3F1041CC3D32000C0C676 /* MobilemagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobilemagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C3F1041CC3D32000C0C676 /* Styla.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Styla.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C3F1081CC3D32000C0C676 /* MobilemagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilemagUITests.swift; sourceTree = "<group>"; };
 		07C3F10A1CC3D32000C0C676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C3F1161CC3E08900C0C676 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +89,9 @@
 		07C3F0E61CC3D32000C0C676 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07C3F0E51CC3D32000C0C676 /* Mobilemag.app */,
-				07C3F0F91CC3D32000C0C676 /* MobilemagTests.xctest */,
-				07C3F1041CC3D32000C0C676 /* MobilemagUITests.xctest */,
+				07C3F0E51CC3D32000C0C676 /* Styla.app */,
+				07C3F0F91CC3D32000C0C676 /* Styla.xctest */,
+				07C3F1041CC3D32000C0C676 /* Styla.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +102,7 @@
 				07C3F0E81CC3D32000C0C676 /* AppDelegate.swift */,
 				07C3F0EA1CC3D32000C0C676 /* ViewController.swift */,
 				07C3F0EC1CC3D32000C0C676 /* Main.storyboard */,
+				07C3F1161CC3E08900C0C676 /* WebView.swift */,
 				07C3F0EF1CC3D32000C0C676 /* Assets.xcassets */,
 				07C3F0F11CC3D32000C0C676 /* LaunchScreen.storyboard */,
 				07C3F0F41CC3D32000C0C676 /* Info.plist */,
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07C3F0E41CC3D32000C0C676 /* Mobilemag */ = {
+		07C3F0E41CC3D32000C0C676 /* Styla */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07C3F10D1CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "Mobilemag" */;
+			buildConfigurationList = 07C3F10D1CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "Styla" */;
 			buildPhases = (
 				07C3F0E11CC3D32000C0C676 /* Sources */,
 				07C3F0E21CC3D32000C0C676 /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = Mobilemag;
+			name = Styla;
 			productName = Mobilemag;
-			productReference = 07C3F0E51CC3D32000C0C676 /* Mobilemag.app */;
+			productReference = 07C3F0E51CC3D32000C0C676 /* Styla.app */;
 			productType = "com.apple.product-type.application";
 		};
-		07C3F0F81CC3D32000C0C676 /* MobilemagTests */ = {
+		07C3F0F81CC3D32000C0C676 /* StylaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07C3F1101CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "MobilemagTests" */;
+			buildConfigurationList = 07C3F1101CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "StylaTests" */;
 			buildPhases = (
 				07C3F0F51CC3D32000C0C676 /* Sources */,
 				07C3F0F61CC3D32000C0C676 /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				07C3F0FB1CC3D32000C0C676 /* PBXTargetDependency */,
 			);
-			name = MobilemagTests;
+			name = StylaTests;
 			productName = MobilemagTests;
-			productReference = 07C3F0F91CC3D32000C0C676 /* MobilemagTests.xctest */;
+			productReference = 07C3F0F91CC3D32000C0C676 /* Styla.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		07C3F1031CC3D32000C0C676 /* MobilemagUITests */ = {
+		07C3F1031CC3D32000C0C676 /* StylaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07C3F1131CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "MobilemagUITests" */;
+			buildConfigurationList = 07C3F1131CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "StylaUITests" */;
 			buildPhases = (
 				07C3F1001CC3D32000C0C676 /* Sources */,
 				07C3F1011CC3D32000C0C676 /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				07C3F1061CC3D32000C0C676 /* PBXTargetDependency */,
 			);
-			name = MobilemagUITests;
+			name = StylaUITests;
 			productName = MobilemagUITests;
-			productReference = 07C3F1041CC3D32000C0C676 /* MobilemagUITests.xctest */;
+			productReference = 07C3F1041CC3D32000C0C676 /* Styla.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					07C3F0E41CC3D32000C0C676 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = G65W9U2T69;
 					};
 					07C3F0F81CC3D32000C0C676 = {
 						CreatedOnToolsVersion = 7.3;
@@ -204,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 07C3F0E01CC3D32000C0C676 /* Build configuration list for PBXProject "Mobilemag" */;
+			buildConfigurationList = 07C3F0E01CC3D32000C0C676 /* Build configuration list for PBXProject "Styla" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07C3F0E41CC3D32000C0C676 /* Mobilemag */,
-				07C3F0F81CC3D32000C0C676 /* MobilemagTests */,
-				07C3F1031CC3D32000C0C676 /* MobilemagUITests */,
+				07C3F0E41CC3D32000C0C676 /* Styla */,
+				07C3F0F81CC3D32000C0C676 /* StylaTests */,
+				07C3F1031CC3D32000C0C676 /* StylaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C3F1171CC3E08900C0C676 /* WebView.swift in Sources */,
 				07C3F0EB1CC3D32000C0C676 /* ViewController.swift in Sources */,
 				07C3F0E91CC3D32000C0C676 /* AppDelegate.swift in Sources */,
 			);
@@ -282,12 +287,12 @@
 /* Begin PBXTargetDependency section */
 		07C3F0FB1CC3D32000C0C676 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 07C3F0E41CC3D32000C0C676 /* Mobilemag */;
+			target = 07C3F0E41CC3D32000C0C676 /* Styla */;
 			targetProxy = 07C3F0FA1CC3D32000C0C676 /* PBXContainerItemProxy */;
 		};
 		07C3F1061CC3D32000C0C676 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 07C3F0E41CC3D32000C0C676 /* Mobilemag */;
+			target = 07C3F0E41CC3D32000C0C676 /* Styla */;
 			targetProxy = 07C3F1051CC3D32000C0C676 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,10 +406,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Mobilemag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = styla.Mobilemag;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Styla;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Mobilemag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = styla.Mobilemag;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Styla;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -426,8 +437,8 @@
 				INFOPLIST_FILE = MobilemagTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = styla.MobilemagTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobilemag.app/Mobilemag";
+				PRODUCT_NAME = Styla;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Styla.app/Styla";
 			};
 			name = Debug;
 		};
@@ -438,8 +449,8 @@
 				INFOPLIST_FILE = MobilemagTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = styla.MobilemagTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobilemag.app/Mobilemag";
+				PRODUCT_NAME = Styla;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Styla.app/Styla";
 			};
 			name = Release;
 		};
@@ -449,7 +460,7 @@
 				INFOPLIST_FILE = MobilemagUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = styla.MobilemagUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Styla;
 				TEST_TARGET_NAME = Mobilemag;
 			};
 			name = Debug;
@@ -460,7 +471,7 @@
 				INFOPLIST_FILE = MobilemagUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = styla.MobilemagUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Styla;
 				TEST_TARGET_NAME = Mobilemag;
 			};
 			name = Release;
@@ -468,7 +479,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07C3F0E01CC3D32000C0C676 /* Build configuration list for PBXProject "Mobilemag" */ = {
+		07C3F0E01CC3D32000C0C676 /* Build configuration list for PBXProject "Styla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07C3F10B1CC3D32000C0C676 /* Debug */,
@@ -477,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07C3F10D1CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "Mobilemag" */ = {
+		07C3F10D1CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "Styla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07C3F10E1CC3D32000C0C676 /* Debug */,
@@ -485,7 +496,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		07C3F1101CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "MobilemagTests" */ = {
+		07C3F1101CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "StylaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07C3F1111CC3D32000C0C676 /* Debug */,
@@ -493,7 +504,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		07C3F1131CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "MobilemagUITests" */ = {
+		07C3F1131CC3D32000C0C676 /* Build configuration list for PBXNativeTarget "StylaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07C3F1141CC3D32000C0C676 /* Debug */,
